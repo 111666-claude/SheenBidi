@@ -87,6 +87,7 @@ set(SHEENBIDI_HEADERS
   Headers/SheenBidi/SBAttributeRegistry.h
   Headers/SheenBidi/SBBase.h
   Headers/SheenBidi/SBBidiType.h
+  Headers/SheenBidi/SBCaretMap.h
   Headers/SheenBidi/SBCodepoint.h
   Headers/SheenBidi/SBCodepointSequence.h
   Headers/SheenBidi/SBGeneralCategory.h
@@ -199,6 +200,7 @@ if(BUILD_TESTS)
     BidiTypeLookupTests
     BracketLookupTests
     BracketQueueTests
+    CaretMapTests
     CodepointSequenceTests
     CodepointTests
     GeneralCategoryLookupTests
@@ -254,6 +256,10 @@ if(BUILD_TESTS)
   set(BracketQueueTests
     Tests/BracketQueueTests.h
     Tests/BracketQueueTests.cpp
+  )
+  set(CaretMapTests
+    Tests/CaretMapTests.h
+    Tests/CaretMapTests.cpp
   )
   set(CodepointSequenceTests
     Tests/CodepointSequenceTests.h

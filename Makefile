@@ -35,6 +35,7 @@ DEBUG_SOURCES = \
     $(SOURCE_DIR)/API/SBAttributeList.c \
     $(SOURCE_DIR)/API/SBAttributeRegistry.c \
     $(SOURCE_DIR)/API/SBBase.c \
+    $(SOURCE_DIR)/API/SBCaretMap.c \
     $(SOURCE_DIR)/API/SBCodepoint.c \
     $(SOURCE_DIR)/API/SBCodepointSequence.c \
     $(SOURCE_DIR)/API/SBLine.c \

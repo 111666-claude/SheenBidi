@@ -38,6 +38,7 @@
 #include "BidiTypeLookupTests.h"
 #include "BracketLookupTests.h"
 #include "BracketQueueTests.h"
+#include "CaretMapTests.h"
 #include "CodepointSequenceTests.h"
 #include "CodepointTests.h"
 #include "GeneralCategoryLookupTests.h"
@@ -84,6 +85,7 @@ int main(int argc, const char *argv[]) {
     AttributeManagerTests attributeManagerTests;
     AttributeRunIteratorTests attributeRunIteratorTests;
     BracketQueueTests bracketQueueTests;
+    CaretMapTests caretMapTests;
     CodepointTests codepointTests(unicodeData, bidiBrackets);
     CodepointSequenceTests codepointSequenceTests;
     LogicalRunIteratorTests logicalRunIteratorTests;
@@ -111,6 +113,7 @@ int main(int argc, const char *argv[]) {
     attributeManagerTests.run();
     attributeRunIteratorTests.run();
     bracketQueueTests.run();
+    caretMapTests.run();
     codepointTests.run();
     codepointSequenceTests.run();
     logicalRunIteratorTests.run();

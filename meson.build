@@ -34,6 +34,7 @@ sheenbidi_headers = files(
   'Headers/SheenBidi/SBAttributeRegistry.h',
   'Headers/SheenBidi/SBBase.h',
   'Headers/SheenBidi/SBBidiType.h',
+  'Headers/SheenBidi/SBCaretMap.h',
   'Headers/SheenBidi/SBCodepoint.h',
   'Headers/SheenBidi/SBCodepointSequence.h',
   'Headers/SheenBidi/SBGeneralCategory.h',
@@ -58,6 +59,7 @@ internal_headers = files(
   'Source/API/SBAttributeList.h',
   'Source/API/SBAttributeRegistry.h',
   'Source/API/SBBase.h',
+  'Source/API/SBCaretMap.h',
   'Source/API/SBCodepoint.h',
   'Source/API/SBCodepointSequence.h',
   'Source/API/SBLine.h',
@@ -105,6 +107,7 @@ else
     'Source/API/SBAttributeList.c',
     'Source/API/SBAttributeRegistry.c',
     'Source/API/SBBase.c',
+    'Source/API/SBCaretMap.c',
     'Source/API/SBCodepoint.c',
     'Source/API/SBCodepointSequence.c',
     'Source/API/SBLine.c',
@@ -283,6 +286,10 @@ if build_tests
     'BracketQueueTests': [
       'Tests/BracketQueueTests.h',
       'Tests/BracketQueueTests.cpp'
+    ],
+    'CaretMapTests': [
+      'Tests/CaretMapTests.h',
+      'Tests/CaretMapTests.cpp'
     ],
     'CodepointSequenceTests': [
       'Tests/CodepointSequenceTests.h',

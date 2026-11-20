@@ -24,6 +24,7 @@
 #include <API/SBAttributeList.c>
 #include <API/SBAttributeRegistry.c>
 #include <API/SBBase.c>
+#include <API/SBCaretMap.c>
 #include <API/SBCodepoint.c>
 #include <API/SBCodepointSequence.c>
 #include <API/SBLine.c>

@@ -23,6 +23,7 @@
 #include <SheenBidi/SBAttributeRegistry.h>
 #include <SheenBidi/SBBase.h>
 #include <SheenBidi/SBBidiType.h>
+#include <SheenBidi/SBCaretMap.h>
 #include <SheenBidi/SBCodepoint.h>
 #include <SheenBidi/SBCodepointSequence.h>
 #include <SheenBidi/SBGeneralCategory.h>
